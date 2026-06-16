@@ -3,7 +3,7 @@
     "description": "SahelSoft Business Management System",
     "type": "project",
     "require": {
-        "php": ">=7.4",
+        "php": "^8.1",
         "phpmailer/phpmailer": "^6.8"
     },
     "autoload": {
