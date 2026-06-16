@@ -2,14 +2,15 @@ FROM php:8.3-apache
 
 WORKDIR /var/www/html
 
+# Enable rewrite ONLY
 RUN a2enmod rewrite
 
-# 🔥 FIX: disable ALL MPMs first
-RUN a2dismod mpm_event || true
-RUN a2dismod mpm_worker || true
-RUN a2dismod mpm_prefork || true
+# Remove ALL MPM conflicts safely BEFORE Apache starts
+RUN rm -f /etc/apache2/mods-enabled/mpm_event.load || true
+RUN rm -f /etc/apache2/mods-enabled/mpm_worker.load || true
+RUN rm -f /etc/apache2/mods-enabled/mpm_prefork.load || true
 
-# 🔥 enable ONLY prefork (required for mod_php)
+# Force ONLY prefork cleanly
 RUN a2enmod mpm_prefork
 
 RUN apt-get update && apt-get install -y \
