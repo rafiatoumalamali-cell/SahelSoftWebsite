@@ -12,18 +12,26 @@ RUN apt-get update && apt-get install -y \
     nginx \
     && rm -rf /var/lib/apt/lists/*
 
-# Remove default Nginx config
+# Remove default Nginx configs
 RUN rm -f /etc/nginx/sites-enabled/default /etc/nginx/conf.d/default.conf
 
 # Install Composer
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
-# Allow Composer to run as root
 ENV COMPOSER_ALLOW_SUPERUSER=1
 
 RUN composer install --no-dev --optimize-autoloader
 
-# Create Nginx config using Unix socket
+# Create PHP-FPM config
+RUN cat > /usr/local/etc/php-fpm.d/socket.conf << 'EOF'
+[www]
+listen = /var/run/php-fpm.sock
+listen.owner = www-data
+listen.group = www-data
+listen.mode = 0660
+EOF
+
+# Create Nginx config
 RUN cat > /etc/nginx/conf.d/app.conf << 'EOF'
 server {
 listen 80 default_server;
@@ -43,12 +51,6 @@ include fastcgi_params;
 }
 }
 EOF
-
-# Configure PHP-FPM to use socket
-RUN sed -i 's/listen = 127.0.0.1:9000/listen = \/var\/run\/php-fpm.sock/' /usr/local/etc/php-fpm.d/www.conf && \
-    sed -i 's/;listen.owner = www-data/listen.owner = www-data/' /usr/local/etc/php-fpm.d/www.conf && \
-    sed -i 's/;listen.group = www-data/listen.group = www-data/' /usr/local/etc/php-fpm.d/www.conf && \
-    sed -i 's/;listen.mode = 0660/listen.mode = 0660/' /usr/local/etc/php-fpm.d/www.conf
 
 EXPOSE 80
 
