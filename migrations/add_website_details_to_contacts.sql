@@ -1,0 +1,35 @@
+-- Migration: Add Website Project Details to Contacts Table
+-- This migration adds comprehensive fields for collecting detailed website requirements
+
+ALTER TABLE contacts ADD COLUMN (
+    business_type VARCHAR(100) NULL COMMENT 'Type of business (e.g., E-commerce, SaaS, Consulting)',
+    website_purpose TEXT NULL COMMENT 'Main purpose and goals of the website',
+    target_audience TEXT NULL COMMENT 'Description of target audience',
+    existing_website VARCHAR(3) NULL COMMENT 'Does client have existing website? (yes/no)',
+    existing_url VARCHAR(500) NULL COMMENT 'URL of existing website if any',
+    design_style VARCHAR(100) NULL COMMENT 'Design preference (modern, minimal, corporate, creative)',
+    branding_colors VARCHAR(500) NULL COMMENT 'Preferred brand colors (JSON array)',
+    branding_fonts VARCHAR(500) NULL COMMENT 'Preferred fonts',
+    competitor_urls TEXT NULL COMMENT 'Competitor website URLs/references (JSON array)',
+    required_features JSON NULL COMMENT 'List of required features',
+    timeline_start DATE NULL COMMENT 'Preferred project start date',
+    timeline_deadline DATE NULL COMMENT 'Project deadline',
+    hosting_requirements VARCHAR(255) NULL COMMENT 'Hosting preferences',
+    domain_name VARCHAR(255) NULL COMMENT 'Preferred domain name or existing domain',
+    seo_requirements TEXT NULL COMMENT 'SEO and marketing requirements',
+    payment_integration VARCHAR(3) NULL COMMENT 'Payment gateway needed? (yes/no)',
+    payment_integrations VARCHAR(500) NULL COMMENT 'Specific payment methods required',
+    cms_preference VARCHAR(100) NULL COMMENT 'CMS preference if any',
+    ongoing_support_needed VARCHAR(3) NULL COMMENT 'Ongoing support needed? (yes/no)',
+    support_level VARCHAR(100) NULL COMMENT 'Level of support (maintenance, updates, monitoring)',
+    training_needed VARCHAR(3) NULL COMMENT 'Staff training needed? (yes/no)',
+    training_details TEXT NULL COMMENT 'Training requirements details',
+    current_marketing_tools TEXT NULL COMMENT 'Current tools used (email service, analytics, etc)',
+    integrations_needed JSON NULL COMMENT 'Third-party integrations needed',
+    mobile_responsive VARCHAR(3) DEFAULT 'yes' COMMENT 'Mobile responsive required',
+    multilingual VARCHAR(3) DEFAULT 'no' COMMENT 'Multilingual support needed',
+    languages VARCHAR(255) NULL COMMENT 'Languages required',
+    analytics_tracking VARCHAR(3) DEFAULT 'yes' COMMENT 'Analytics tracking required',
+    additional_notes TEXT NULL COMMENT 'Any additional notes or requests',
+    industry VARCHAR(100) NULL COMMENT 'Industry/Sector'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;

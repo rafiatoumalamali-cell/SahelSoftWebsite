@@ -1,0 +1,286 @@
+2026-01-21 21:40:44 - Success: {"name":"nana","organization":"school","email":"nana@gmail.com","phone":"+233 5003836061","project_type":"web","budget":"low","description":"abn   mmm","attachments":null}
+2026-01-21 21:41:46 - Success: {"name":"nana","organization":"school","email":"nana@gmail.com","phone":"+233 5003836061","project_type":"web","budget":"low","description":"adfghjnn  jkl;;;'''kjhff","attachments":null}
+
+
+=== 2026-01-24 22:24:27 - New Contact Submission ===
+POST Data: {"csrf_token":"00c9d015bffb57a27197d9d85721868881d523300813086fb8bc68c9e463632c","name":"nana","organization":"EcoCycle","email":"nana@gmail.com","phone":"+227 2335038361","project_type":"web","budget":"low","description":"hhh"}
+FILES Data: {"attachments":{"name":[""],"full_path":[""],"type":[""],"tmp_name":[""],"error":[4],"size":[0]}}
+File count: 1
+Upload directory: C:\laragon\www\SahelSoftWebsite/public/uploads/contacts/
+
+Processing file 0: 
+  Error code: 4
+  ERROR: Upload error code 4 for 
+
+Total files uploaded: 0
+Upload errors: ["Upload error code 4 for "]
+2026-01-24 22:24:28 - Success: {"user_id":6,"name":"nana","organization":"EcoCycle","email":"nana@gmail.com","phone":"+227 2335038361","project_type":"web","budget":"low","description":"hhh","status":"pending","attachments":null}
+
+
+=== 2026-01-24 22:29:08 - New Contact Submission ===
+POST Data: {"csrf_token":"00c9d015bffb57a27197d9d85721868881d523300813086fb8bc68c9e463632c","name":"nana","organization":"EcoCycle","email":"nana@gmail.com","phone":"+227 2335038361","project_type":"web","budget":"low","description":"hhh"}
+FILES Data: {"attachments":{"name":[""],"full_path":[""],"type":[""],"tmp_name":[""],"error":[4],"size":[0]}}
+File count: 1
+Upload directory: C:\laragon\www\SahelSoftWebsite/public/uploads/contacts/
+
+Processing file 0: 
+  Error code: 4
+  ERROR: Upload error code 4 for 
+
+Total files uploaded: 0
+Upload errors: ["Upload error code 4 for "]
+2026-01-24 22:29:08 - Success: {"user_id":6,"name":"nana","organization":"EcoCycle","email":"nana@gmail.com","phone":"+227 2335038361","project_type":"web","budget":"low","description":"hhh","status":"pending","attachments":null}
+
+
+=== 2026-01-24 22:29:12 - New Contact Submission ===
+POST Data: {"csrf_token":"00c9d015bffb57a27197d9d85721868881d523300813086fb8bc68c9e463632c","name":"nana","organization":"EcoCycle","email":"nana@gmail.com","phone":"+227 2335038361","project_type":"web","budget":"low","description":"hhh"}
+FILES Data: {"attachments":{"name":[""],"full_path":[""],"type":[""],"tmp_name":[""],"error":[4],"size":[0]}}
+File count: 1
+Upload directory: C:\laragon\www\SahelSoftWebsite/public/uploads/contacts/
+
+Processing file 0: 
+  Error code: 4
+  ERROR: Upload error code 4 for 
+
+Total files uploaded: 0
+Upload errors: ["Upload error code 4 for "]
+2026-01-24 22:29:12 - Success: {"user_id":6,"name":"nana","organization":"EcoCycle","email":"nana@gmail.com","phone":"+227 2335038361","project_type":"web","budget":"low","description":"hhh","status":"pending","attachments":null}
+
+
+=== 2026-01-24 22:31:17 - New Contact Submission ===
+POST Data: {"csrf_token":"00c9d015bffb57a27197d9d85721868881d523300813086fb8bc68c9e463632c","name":"nana","organization":"EcoCycle","email":"nana@gmail.com","phone":"+227 2335038361","project_type":"web","budget":"low","description":"hhh"}
+FILES Data: {"attachments":{"name":[""],"full_path":[""],"type":[""],"tmp_name":[""],"error":[4],"size":[0]}}
+File count: 1
+Upload directory: C:\laragon\www\SahelSoftWebsite/public/uploads/contacts/
+
+Processing file 0: 
+  Error code: 4
+  ERROR: Upload error code 4 for 
+
+Total files uploaded: 0
+Upload errors: ["Upload error code 4 for "]
+2026-01-24 22:31:17 - Success: {"user_id":6,"name":"nana","organization":"EcoCycle","email":"nana@gmail.com","phone":"+227 2335038361","project_type":"web","budget":"low","description":"hhh","status":"pending","attachments":null}
+
+
+=== 2026-05-05 18:20:54 - New Contact Submission ===
+POST Data: {"csrf_token":"f4a2b11a6ac583771ba33c2e3b0825aeb7124d9d5a0be2a636b998eaa59b76ba","name":"Alhadhi Maman","organization":"Sahel Manufacturing LTD","email":"Alhadi@gmail.com","phone":"+227 87890336","project_type":"ecommerce","budget":"medium","description":"i want an e-commerce system for my business"}
+FILES Data: {"attachments":{"name":["verification configs.pdf"],"full_path":["verification configs.pdf"],"type":["application\/pdf"],"tmp_name":["C:\\Users\\Rafiatou Malam Ali\\AppData\\Local\\Temp\\phpFD53.tmp"],"error":[0],"size":[527830]}}
+File count: 1
+Upload directory: C:\laragon\www\SahelSoftWebsite/public/uploads/contacts/
+
+Processing file 0: verification configs.pdf
+  Error code: 0
+  Size: 527830 bytes
+  Temp name: C:\Users\Rafiatou Malam Ali\AppData\Local\Temp\phpFD53.tmp
+  Extension: pdf
+  MIME type: application/pdf
+  Target path: C:\laragon\www\SahelSoftWebsite/public/uploads/contacts/1778005254_69fa35060edad_verificationconfigs.pdf
+  SUCCESS: File uploaded
+
+Total files uploaded: 1
+2026-05-05 18:20:54 - Exception: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1
+
+
+=== 2026-05-05 18:21:05 - New Contact Submission ===
+POST Data: {"csrf_token":"f4a2b11a6ac583771ba33c2e3b0825aeb7124d9d5a0be2a636b998eaa59b76ba","name":"Alhadhi Maman","organization":"Sahel Manufacturing LTD","email":"Alhadi@gmail.com","phone":"+227 87890336","project_type":"ecommerce","budget":"medium","description":"i want an e-commerce system for my business"}
+FILES Data: {"attachments":{"name":["verification configs.pdf"],"full_path":["verification configs.pdf"],"type":["application\/pdf"],"tmp_name":["C:\\Users\\Rafiatou Malam Ali\\AppData\\Local\\Temp\\php2975.tmp"],"error":[0],"size":[527830]}}
+File count: 1
+Upload directory: C:\laragon\www\SahelSoftWebsite/public/uploads/contacts/
+
+Processing file 0: verification configs.pdf
+  Error code: 0
+  Size: 527830 bytes
+  Temp name: C:\Users\Rafiatou Malam Ali\AppData\Local\Temp\php2975.tmp
+  Extension: pdf
+  MIME type: application/pdf
+  Target path: C:\laragon\www\SahelSoftWebsite/public/uploads/contacts/1778005265_69fa35115b880_verificationconfigs.pdf
+  SUCCESS: File uploaded
+
+Total files uploaded: 1
+2026-05-05 18:21:05 - Exception: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1
+
+
+=== 2026-05-05 18:23:46 - New Contact Submission ===
+POST Data: {"csrf_token":"f4a2b11a6ac583771ba33c2e3b0825aeb7124d9d5a0be2a636b998eaa59b76ba","name":"Alhadhi Maman","organization":"Sahel Manufacturing LTD","email":"Alhadi@gmail.com","phone":"+227 87890336","project_type":"ecommerce","budget":"medium","description":"i want an e-commerce system for my business"}
+FILES Data: {"attachments":{"name":["food warmer set.jpeg"],"full_path":["food warmer set.jpeg"],"type":["image\/jpeg"],"tmp_name":["C:\\Users\\Rafiatou Malam Ali\\AppData\\Local\\Temp\\php9DC2.tmp"],"error":[0],"size":[81139]}}
+File count: 1
+Upload directory: C:\laragon\www\SahelSoftWebsite/public/uploads/contacts/
+
+Processing file 0: food warmer set.jpeg
+  Error code: 0
+  Size: 81139 bytes
+  Temp name: C:\Users\Rafiatou Malam Ali\AppData\Local\Temp\php9DC2.tmp
+  Extension: jpeg
+  MIME type: image/jpeg
+  Target path: C:\laragon\www\SahelSoftWebsite/public/uploads/contacts/1778005426_69fa35b22fe2b_foodwarmerset.jpeg
+  SUCCESS: File uploaded
+
+Total files uploaded: 1
+2026-05-05 18:23:46 - Exception: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1
+
+
+=== 2026-05-09 16:29:15 - New Contact Submission ===
+POST Data: {"csrf_token":"9400bd630002d8e654d71508a76475595f48dbe83ccb78b820551f28a947f982","name":"Alhadhi Maman","organization":"Sahel Manufacturing LTD","email":"Alhadi@gmail.com","phone":"+227 87890336","project_type":"ecommerce","budget":"low","description":"gguu8888 yyyyyyyyyAUSDKFGHUI765R RTYUI0OPL[KJFDASFGHJKOP; RTYUIOP;"}
+FILES Data: {"attachments":{"name":["food warmer set.jpeg"],"full_path":["food warmer set.jpeg"],"type":["image\/jpeg"],"tmp_name":["C:\\Users\\Rafiatou Malam Ali\\AppData\\Local\\Temp\\php44A6.tmp"],"error":[0],"size":[81139]}}
+File count: 1
+Upload directory: C:\laragon\www\SahelSoftWebsite/public/uploads/contacts/
+
+Processing file 0: food warmer set.jpeg
+  Error code: 0
+  Size: 81139 bytes
+  Temp name: C:\Users\Rafiatou Malam Ali\AppData\Local\Temp\php44A6.tmp
+  Extension: jpeg
+  MIME type: image/jpeg
+  Target path: C:\laragon\www\SahelSoftWebsite/public/uploads/contacts/1778344155_69ff60db19086_foodwarmerset.jpeg
+  SUCCESS: File uploaded
+
+Total files uploaded: 1
+2026-05-09 16:29:15 - Exception: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1
+
+
+=== 2026-05-09 16:30:14 - New Contact Submission ===
+POST Data: {"csrf_token":"9400bd630002d8e654d71508a76475595f48dbe83ccb78b820551f28a947f982","name":"Alhadhi Maman","organization":"Sahel Manufacturing LTD","email":"Alhadi@gmail.com","phone":"+227 87890336","project_type":"ecommerce","budget":"low","description":"gguu8888 yyyyyyyyyAUSDKFGHUI765R RTYUI0OPL[KJFDASFGHJKOP; RTYUIOP;"}
+FILES Data: {"attachments":{"name":["Research_Prospectus..docx"],"full_path":["Research_Prospectus..docx"],"type":["application\/vnd.openxmlformats-officedocument.wordprocessingml.document"],"tmp_name":["C:\\Users\\Rafiatou Malam Ali\\AppData\\Local\\Temp\\php2DFD.tmp"],"error":[0],"size":[96271]}}
+File count: 1
+Upload directory: C:\laragon\www\SahelSoftWebsite/public/uploads/contacts/
+
+Processing file 0: Research_Prospectus..docx
+  Error code: 0
+  Size: 96271 bytes
+  Temp name: C:\Users\Rafiatou Malam Ali\AppData\Local\Temp\php2DFD.tmp
+  Extension: docx
+  MIME type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+  Target path: C:\laragon\www\SahelSoftWebsite/public/uploads/contacts/1778344214_69ff6116bd608_Research_Prospectus..docx
+  SUCCESS: File uploaded
+
+Total files uploaded: 1
+2026-05-09 16:30:14 - Exception: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1
+
+
+=== 2026-05-09 16:36:58 - New Contact Submission ===
+POST Data: {"csrf_token":"9400bd630002d8e654d71508a76475595f48dbe83ccb78b820551f28a947f982","name":"Alhadhi Maman","organization":"Sahel Manufacturing LTD","email":"Alhadi@gmail.com","phone":"+227 87890336","project_type":"web","budget":"low","description":"2erghweghe tyuiooiuyrertu ertyuklrertyuioi sdxhjklsdfghjiop weryuiwertyuieryuio"}
+FILES Data: {"attachments":{"name":["RafiatouMalamAli_Poster_Presentaion_slide (1).pdf"],"full_path":["RafiatouMalamAli_Poster_Presentaion_slide (1).pdf"],"type":["application\/pdf"],"tmp_name":["C:\\Users\\Rafiatou Malam Ali\\AppData\\Local\\Temp\\php5697.tmp"],"error":[0],"size":[351157]}}
+File count: 1
+Upload directory: C:\laragon\www\SahelSoftWebsite/public/uploads/contacts/
+
+Processing file 0: RafiatouMalamAli_Poster_Presentaion_slide (1).pdf
+  Error code: 0
+  Size: 351157 bytes
+  Temp name: C:\Users\Rafiatou Malam Ali\AppData\Local\Temp\php5697.tmp
+  Extension: pdf
+  MIME type: application/pdf
+  Target path: C:\laragon\www\SahelSoftWebsite/public/uploads/contacts/1778344618_69ff62aa4e8ec_RafiatouMalamAli_Poster_Presentaion_slide1.pdf
+  SUCCESS: File uploaded
+
+Total files uploaded: 1
+2026-05-09 16:36:58 - Exception: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1
+
+
+=== 2026-05-09 16:46:26 - New Contact Submission ===
+POST Data: {"csrf_token":"9400bd630002d8e654d71508a76475595f48dbe83ccb78b820551f28a947f982","name":"Alhadhi Maman","organization":"Sahel Manufacturing LTD","email":"Alhadi@gmail.com","phone":"+227 87890336","project_type":"web","budget":"low","description":"2erghweghe tyuiooiuyrertu ertyuklrertyuioi sdxhjklsdfghjiop weryuiwertyuieryuio"}
+FILES Data: {"attachments":{"name":["RafiatouMalamAli_Poster_Presentaion_slide (1).pdf"],"full_path":["RafiatouMalamAli_Poster_Presentaion_slide (1).pdf"],"type":["application\/pdf"],"tmp_name":["C:\\Users\\Rafiatou Malam Ali\\AppData\\Local\\Temp\\php2C0.tmp"],"error":[0],"size":[351157]}}
+File count: 1
+Upload directory: C:\laragon\www\SahelSoftWebsite/public/uploads/contacts/
+
+Processing file 0: RafiatouMalamAli_Poster_Presentaion_slide (1).pdf
+  Error code: 0
+  Size: 351157 bytes
+  Temp name: C:\Users\Rafiatou Malam Ali\AppData\Local\Temp\php2C0.tmp
+  Extension: pdf
+  MIME type: application/pdf
+  Target path: C:\laragon\www\SahelSoftWebsite/public/uploads/contacts/1778345186_69ff64e2a678d_RafiatouMalamAli_Poster_Presentaion_slide1.pdf
+  SUCCESS: File uploaded
+
+Total files uploaded: 1
+2026-05-09 16:46:26 - Exception: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1
+
+
+=== 2026-05-09 16:46:31 - New Contact Submission ===
+POST Data: {"csrf_token":"9400bd630002d8e654d71508a76475595f48dbe83ccb78b820551f28a947f982","name":"Alhadhi Maman","organization":"Sahel Manufacturing LTD","email":"Alhadi@gmail.com","phone":"+227 87890336","project_type":"web","budget":"low","description":"2erghweghe tyuiooiuyrertu ertyuklrertyuioi sdxhjklsdfghjiop weryuiwertyuieryuio"}
+FILES Data: {"attachments":{"name":["RafiatouMalamAli_Poster_Presentaion_slide (1).pdf"],"full_path":["RafiatouMalamAli_Poster_Presentaion_slide (1).pdf"],"type":["application\/pdf"],"tmp_name":["C:\\Users\\Rafiatou Malam Ali\\AppData\\Local\\Temp\\php16D5.tmp"],"error":[0],"size":[351157]}}
+File count: 1
+Upload directory: C:\laragon\www\SahelSoftWebsite/public/uploads/contacts/
+
+Processing file 0: RafiatouMalamAli_Poster_Presentaion_slide (1).pdf
+  Error code: 0
+  Size: 351157 bytes
+  Temp name: C:\Users\Rafiatou Malam Ali\AppData\Local\Temp\php16D5.tmp
+  Extension: pdf
+  MIME type: application/pdf
+  Target path: C:\laragon\www\SahelSoftWebsite/public/uploads/contacts/1778345191_69ff64e7c64e7_RafiatouMalamAli_Poster_Presentaion_slide1.pdf
+  SUCCESS: File uploaded
+
+Total files uploaded: 1
+2026-05-09 16:46:31 - Exception: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1
+
+
+=== 2026-05-09 16:46:52 - New Contact Submission ===
+POST Data: {"csrf_token":"9400bd630002d8e654d71508a76475595f48dbe83ccb78b820551f28a947f982","name":"Alhadhi Maman","organization":"Sahel Manufacturing LTD","email":"Alhadi@gmail.com","phone":"+227 87890336","project_type":"web","budget":"low","description":"2erghweghe tyuiooiuyrertu ertyuklrertyuioi sdxhjklsdfghjiop weryuiwertyuieryuio"}
+FILES Data: {"attachments":{"name":["RafiatouMalamAli_Poster_Presentaion_slide (1).pdf"],"full_path":["RafiatouMalamAli_Poster_Presentaion_slide (1).pdf"],"type":["application\/pdf"],"tmp_name":["C:\\Users\\Rafiatou Malam Ali\\AppData\\Local\\Temp\\php661F.tmp"],"error":[0],"size":[351157]}}
+File count: 1
+Upload directory: C:\laragon\www\SahelSoftWebsite/public/uploads/contacts/
+
+Processing file 0: RafiatouMalamAli_Poster_Presentaion_slide (1).pdf
+  Error code: 0
+  Size: 351157 bytes
+  Temp name: C:\Users\Rafiatou Malam Ali\AppData\Local\Temp\php661F.tmp
+  Extension: pdf
+  MIME type: application/pdf
+  Target path: C:\laragon\www\SahelSoftWebsite/public/uploads/contacts/1778345212_69ff64fc1bcde_RafiatouMalamAli_Poster_Presentaion_slide1.pdf
+  SUCCESS: File uploaded
+
+Total files uploaded: 1
+2026-05-09 16:46:52 - Exception: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1
+
+
+=== 2026-05-09 17:04:29 - New Contact Submission ===
+POST Data: {"csrf_token":"9400bd630002d8e654d71508a76475595f48dbe83ccb78b820551f28a947f982","name":"Alhadhi Maman","organization":"Sahel Manufacturing LTD","email":"Alhadi@gmail.com","phone":"+227 87890336","project_type":"web","budget":"low","description":"2erghweghe tyuiooiuyrertu ertyuklrertyuioi sdxhjklsdfghjiop weryuiwertyuieryuio"}
+FILES Data: {"attachments":{"name":["RafiatouMalamAli_Poster_Presentaion_slide (1).pdf"],"full_path":["RafiatouMalamAli_Poster_Presentaion_slide (1).pdf"],"type":["application\/pdf"],"tmp_name":["C:\\Users\\Rafiatou Malam Ali\\AppData\\Local\\Temp\\php890C.tmp"],"error":[0],"size":[351157]}}
+File count: 1
+Upload directory: C:\laragon\www\SahelSoftWebsite/public/uploads/contacts/
+
+Processing file 0: RafiatouMalamAli_Poster_Presentaion_slide (1).pdf
+  Error code: 0
+  Size: 351157 bytes
+  Temp name: C:\Users\Rafiatou Malam Ali\AppData\Local\Temp\php890C.tmp
+  Extension: pdf
+  MIME type: application/pdf
+  Target path: C:\laragon\www\SahelSoftWebsite/public/uploads/contacts/1778346269_69ff691da00a7_RafiatouMalamAli_Poster_Presentaion_slide1.pdf
+  SUCCESS: File uploaded
+
+Total files uploaded: 1
+2026-05-09 17:04:29 - Exception: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1
+
+
+=== 2026-05-09 17:04:55 - New Contact Submission ===
+POST Data: {"csrf_token":"9400bd630002d8e654d71508a76475595f48dbe83ccb78b820551f28a947f982","name":"Alhadhi Maman","organization":"Sahel Manufacturing LTD","email":"Alhadi@gmail.com","phone":"+227 87890336","project_type":"web","budget":"low","description":"2erghweghe tyuiooiuyrertu ertyuklrertyuioi sdxhjklsdfghjiop weryuiwertyuieryuio"}
+FILES Data: {"attachments":{"name":["RafiatouMalamAli_Poster_Presentaion_slide (1).pdf"],"full_path":["RafiatouMalamAli_Poster_Presentaion_slide (1).pdf"],"type":["application\/pdf"],"tmp_name":["C:\\Users\\Rafiatou Malam Ali\\AppData\\Local\\Temp\\phpEDB2.tmp"],"error":[0],"size":[351157]}}
+File count: 1
+Upload directory: C:\laragon\www\SahelSoftWebsite/public/uploads/contacts/
+
+Processing file 0: RafiatouMalamAli_Poster_Presentaion_slide (1).pdf
+  Error code: 0
+  Size: 351157 bytes
+  Temp name: C:\Users\Rafiatou Malam Ali\AppData\Local\Temp\phpEDB2.tmp
+  Extension: pdf
+  MIME type: application/pdf
+  Target path: C:\laragon\www\SahelSoftWebsite/public/uploads/contacts/1778346295_69ff693763a9d_RafiatouMalamAli_Poster_Presentaion_slide1.pdf
+  SUCCESS: File uploaded
+
+Total files uploaded: 1
+2026-05-09 17:04:55 - Exception: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1
+
+=== 2026-05-09 17:19:43 ===
+Data to insert: {"user_id":2,"name":"Alhadhi Maman","organization":"Sahel Manufacturing LTD","email":"Alhadi@gmail.com","phone":"+227 87890336","project_type":"ecommerce","budget":"high","description":"5rtyuiobbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb","status":"new","attachments":"[\"uploads\\\/contacts\\\/1778347183_69ff6cafcb011_sem3_timetable.png\"]"}
+Insert result: SUCCESS
+Success message sent
+
+=== 2026-05-09 18:07:50 ===
+Data to insert: {"user_id":1,"name":"Rafiatou Malam Ali","organization":"SahelSoft","email":"rafiatoumalamali@gmail.com","phone":"+233 503836061","project_type":"web","budget":"medium","description":"dyyuuu jjii hjiii uiii jiioi","status":"new","attachments":"[\"uploads\\\/contacts\\\/1778350070_69ff77f698023_sem3_timetable.png\"]"}
+Insert result: SUCCESS
+Success message sent
+
+=== 2026-05-10 17:43:36 ===
+Data to insert: {"user_id":1,"name":"Rafiatou Malam Ali","organization":"SahelSoft","email":"rafiatoumalamali@gmail.com","phone":"+233 503836061","project_type":"mobile","budget":"medium","description":"I want a mobile app for my business o my client to order from the app","status":"new","attachments":"[\"uploads\\\/contacts\\\/1778435016_6a00c3c8eddb0_OptiFlow_report.docx\"]"}
+Insert result: SUCCESS
+Success message sent
