@@ -20,16 +20,13 @@ ENV COMPOSER_ALLOW_SUPERUSER=1
 
 RUN composer install --no-dev --optimize-autoloader
 
-# Configure Nginx to point to public directory
+# Configure Nginx
 RUN mkdir -p /etc/nginx/conf.d && \
     echo 'server { \
     listen 80; \
     server_name _; \
-    root /var/www/html/public; \
+    root /var/www/html; \
     index index.php; \
-    location / { \
-    try_files $uri $uri/ /index.php?$query_string; \
-    } \
     location ~ \.php$ { \
     fastcgi_pass 127.0.0.1:9000; \
     fastcgi_index index.php; \
