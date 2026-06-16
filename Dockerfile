@@ -4,6 +4,10 @@ WORKDIR /var/www/html
 
 COPY . .
 
+# Disable conflicting MPM modules and enable only prefork
+RUN a2dismod mpm_worker mpm_event || true && \
+    a2enmod mpm_prefork
+
 # Install dependencies
 RUN apt-get update && apt-get install -y \
     git \
