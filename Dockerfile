@@ -4,6 +4,14 @@ WORKDIR /var/www/html
 
 RUN a2enmod rewrite
 
+# 🔥 FIX: disable ALL MPMs first
+RUN a2dismod mpm_event || true
+RUN a2dismod mpm_worker || true
+RUN a2dismod mpm_prefork || true
+
+# 🔥 enable ONLY prefork (required for mod_php)
+RUN a2enmod mpm_prefork
+
 RUN apt-get update && apt-get install -y \
     git curl unzip
 
